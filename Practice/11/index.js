@@ -29,9 +29,9 @@ show.addEventListener("click", () => {
         result += "south =" + Math.abs(y) + "|";
     }
     if (x > 0) {
-        result += "east =" + y;
+        result += "east =" + x;
     } else {
-        result += "west =" + Math.abs(y);
+        result += "west =" + Math.abs(x);
     }
     text.innerText = result;
 })
